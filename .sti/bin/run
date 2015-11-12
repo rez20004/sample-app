@@ -1,1 +1,4 @@
 #!/bin/sh
+
+echo "=====> This is a custom run script <====="
+exec /usr/libexec/s2i/bin/run "$@"
