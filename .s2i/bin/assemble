@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "====> custom assemble script <===="
+
+exec /usr/libexec/s2i/assemble
