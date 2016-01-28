@@ -1,5 +1,0 @@
-#!/bin/sh
-
-echo "===> This is a custom assemble script <=== "
-
-exec /usr/libexec/s2i/assemble "$@"
