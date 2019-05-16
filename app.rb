@@ -1,5 +1,5 @@
 class MyApp < Sinatra::Base
   get '/' do
-    "Greetings stranger!"
+    "This is a test page!"
   end
 end
